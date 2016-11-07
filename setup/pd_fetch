@@ -87,18 +87,29 @@ if [ "$1" = "" ]; then
 
 	# Clone the PureDarwin binary roots repository (Mercurial)
 	# Source: http://code.google.com/p/puredarwin/source/list?repo=roots
+	#if [ ! -e $BINARYROOTS_DIR ]; then
+	#	hg clone https://roots.puredarwin.googlecode.com/hg/ $TEMPDIR #--debug
+	#else
+	#	cd $TEMPDIR
+	#		hg pull
+	#		hg update #--debug
+	#	cd - > /dev/null
+	#fi
+
+	# Clone the PureDarwin binary roots repository (GitHub)
+	# Source: https://github.com/PureDarwin/puredarwin.roots
 	if [ ! -e $BINARYROOTS_DIR ]; then
-		hg clone https://roots.puredarwin.googlecode.com/hg/ $TEMPDIR #--debug
+		git clone https://github.com/PureDarwin/puredarwin.roots.git $TEMPDIR #--debug
 	else
 		cd $TEMPDIR
-			hg pull
-			hg update #--debug
-		cd - > /dev/null
+			git fetch
+			git checkout -f #--debug
+		#cd ../ #- > /dev/null
 	fi
-	
+
 	# Recursive call of itself
-	$0 0 `cat $BINARYROOTS_LIST_FILE $BINARYROOTS_EXTRA_LIST_FILE`
-	exit 0
+	#$0 0 `cat $BINARYROOTS_LIST_FILE $BINARYROOTS_EXTRA_LIST_FILE`
+	#exit 0
 fi
 
 ################################################################################

@@ -1,3 +1,12 @@
+Trying to understand, streamline stuff and fix what I can in this project. 
+
+BTW, its not working yet
+------------------------
+
+Official readme:
+================
+
+
 PureDarwin [![Join the chat at https://gitter.im/PureDarwin/](https://img.shields.io/badge/gitter-join%20chat-brightgreen.svg)](https://gitter.im/PureDarwin/?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 ==========
 

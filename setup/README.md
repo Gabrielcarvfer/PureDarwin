@@ -7,7 +7,7 @@ These instructions are only for technical persons anyway, so they are short. Dev
 ## Installation
 
 * Check and edit the `pd_config` configuration file to reflect your needs.
-* Get binary roots and binary drivers with `pd_fetch`.
+* Get binary roots and binary drivers with `pd_fetch` (you might need to go to ~/ and execute "hg init" command).
 * Thin them with `pd_thin`.
 * Then see the usage of `pd_setup':
 
