@@ -1,0 +1,19 @@
+pkgutil --check-signature <xip-file>
+xar -xf <xip-file>
+tar -zxvf <xar-file>
+http://adcdownload.apple.com/Developer_Tools/Xcode_8/Xcode_8.xip
+http://adcdownload.apple.com/Developer_Tools/Additional_Tools_for_Xcode_8/Additional_Tools_for_Xcode_8.dmg
+http://adcdownload.apple.com/Developer_Tools/Command_Line_Tools_macOS_10.12_for_Xcode_8/Command_Line_Tools_macOS_10.12_for_Xcode_8.dmg
+http://adcdownload.apple.com/Developer_Tools/Font_Tools_for_Xcode_8/Font_Tools_for_Xcode_8.dmg
+
+http://adcdownload.apple.com/Developer_Tools/Xcode_7/Xcode_7.dmg
+http://adcdownload.apple.com/Developer_Tools/Command_Line_Tools_OS_X_10.10_for_Xcode_7/Command_Line_Tools_OS_X_10.10_for_Xcode_7.dmg
+http://adcdownload.apple.com/Developer_Tools/Auxiliary_Tools_for_Xcode_7/Auxiliary_Tools_for_Xcode_7.dmg
+http://adcdownload.apple.com/Developer_Tools/Hardware_IO_Tools_for_Xcode_7/Hardware_IO_Tools_for_Xcode_7.dmg
+http://adcdownload.apple.com/Developer_Tools/Audio_Tools_for_Xcode_7/Audio_Tools_for_Xcode_7.dmg
+http://adcdownload.apple.com/Developer_Tools/Graphics_Tools_for_Xcode_7/Graphics_Tools_for_Xcode_7.dmg
+
+http://adcdownload.apple.com/Developer_Tools/Xcode_6.3/Xcode_6.3.dmg
+http://adcdownload.apple.com/Developer_Tools/Hardware_IO_Tools_for_Xcode_6.3/HardwareIOTools_Xcode_6.3.dmg
+http://adcdownload.apple.com/Developer_Tools/Graphics_Tools_for_Xcode_6.3/GraphicsTools_Xcode_6.3.dmg
+http://adcdownload.apple.com/Developer_Tools/NEW__Command_Line_Tools_OS_X_10.10_for_Xcode__Xcode_6.3/commandlinetoolsosx10.10forxcode6.3.dmg

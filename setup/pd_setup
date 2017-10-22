@@ -225,7 +225,7 @@ fi
 DIRNAME=$(cd $(dirname $0) && pwd)
 
 # Reading global variables in pd_config file
-source "$DIRNAME"/pd_config
+source="$DIRNAME"/pd_config
 
 # Destination output filename (aka "target")
 TARGET="$1"

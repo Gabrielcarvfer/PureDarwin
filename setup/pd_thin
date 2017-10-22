@@ -101,7 +101,7 @@
 DIRNAME=$(cd $(dirname $0) && pwd)
 
 # Reading global variables in pd_config file
-source "$DIRNAME"/pd_config
+source="$DIRNAME"/pd_config
 
 ################################################################################
 # INITIAL CONDITION
@@ -121,8 +121,8 @@ if [ "$1" = "" ]; then
 	echo "Thinning binaryroots, please wait..."
 
 	# Recursive call of itself
-	$0 0 `cat $BINARYROOTS_LIST_FILE $BINARYROOTS_EXTRA_LIST_FILE`
-	exit 0
+	#$0 0 `cat $BINARYROOTS_LIST_FILE $BINARYROOTS_EXTRA_LIST_FILE`
+	#exit 0
 fi
 
 ################################################################################
@@ -132,8 +132,8 @@ fi
 # Recursive level found in arg1 (loop counter)
 LEVEL=$1
 # Current build version target taken in BINVERSION array from pd_config
-BUILD_VERSION=${BINVERSION[$LEVEL]}
-
+#BUILD_VERSION=${BINVERSION[$LEVEL]}
+BUILD_VERSION=10C540
 # Eating args $1 
 #
 # 	Shifting LEVEL
@@ -141,7 +141,7 @@ BUILD_VERSION=${BINVERSION[$LEVEL]}
 #
 #	At the beginning, all the files are missing
 #	At the end, no file should missing
-shift
+#shift
 
 ################################################################################
 # RECURSIVE CONDITIONS
